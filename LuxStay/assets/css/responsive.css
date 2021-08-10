@@ -1,3 +1,13 @@
+@media (max-width: 1150px) {
+    .hide-low-pc {
+        display: none!important;
+    }
+
+    .menu-btn {
+        display: inline-block;
+    }
+}
+
 /* Mobile and Tablet */
 @media (max-width: 1024px) {
     .hide-on-tablet-mobile {
@@ -13,9 +23,7 @@
         overflow-x: auto!important;
     }
 
-    .menu-btn {
-        display: inline-block;
-    }
+    
 
     .sm-mb-30 {
         margin-bottom: 30px!important;
@@ -63,7 +71,7 @@
     }
     
     .search__wrapper {
-        min-width: 0;
+        min-width: 90%;
     }
 
     .content-section {
@@ -95,5 +103,11 @@
     
     .modal-menu-container {
         width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .search__location {
+        width: 200px;
     }
 }
