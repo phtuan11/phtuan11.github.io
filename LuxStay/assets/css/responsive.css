@@ -70,6 +70,15 @@
         display: none;
     }
     
+    .search__box {
+        flex: 1;
+    }
+
+    .search__location {
+        flex: 1;
+    }
+
+
     .search__wrapper {
         min-width: 90%;
     }
@@ -109,5 +118,9 @@
 @media (max-width: 400px) {
     .search__location {
         width: 200px;
+    }
+
+    .search__location-input {
+        width: 100%;
     }
 }
