@@ -87,6 +87,10 @@
         margin: 20px 0;
     }
 
+    .search__location-input {
+        width: 100%;
+    }
+    
     .mobilie-offer-more {
         color: var(--color-primary);
         padding: 5px;
@@ -120,7 +124,5 @@
         width: 200px;
     }
 
-    .search__location-input {
-        width: 100%;
-    }
+    
 }
